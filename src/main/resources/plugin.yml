@@ -1,0 +1,4 @@
+name: TestPlug
+version: '${project.version}'
+main: testplug.testplug.main
+api-version: 1.19
