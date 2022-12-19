@@ -15,6 +15,6 @@ public final class Main extends JavaPlugin {
     @Override
     public void onDisable() {
         // Plugin shutdown logic
-        Bukkit.getLogger().info(ChatColor.GREEN + "Disabled " + this.getName());
+        Bukkit.getLogger().info(ChatColor.RED + "Disabled " + this.getName());
     }
 }
